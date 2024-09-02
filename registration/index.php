@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Execute query
     if ($conn->query($sql) === TRUE) {
         // Redirect to login page
-        header("Location: /Mini%20Project/login/login.php");
+        header("Location: /SonicScholar/login/login.php");
         exit();
     } else {
         $message = "Error: " . $sql . "<br>" . $conn->error;
