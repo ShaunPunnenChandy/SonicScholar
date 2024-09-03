@@ -101,7 +101,7 @@ $conn->close();
                                 <div class="input-group">
                                     <label class="label">Birthday</label>
                                     <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday" >
+                                        <input class="input--style-4 js-datepicker" type="date" name="birthday" >
                                         <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                                     </div>
                                 </div>
